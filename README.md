@@ -21,5 +21,5 @@ The following software is required to run the model:
 * MATLAB ( in principle any version however tested on MATLAB version 2020a Update 1 (9.8.0.1359463) )
 
 ## References 
-[1] reference will be published soon. For more info contact the author at sherif.fahmy@epfl.ch
-[2] Kersting, W. H. (1991). Radial distribution test feeders. IEEE Transactions on Power Systems, 6(3), 975-985.
+* [1] reference will be published soon. For more info contact the author at sherif.fahmy@epfl.ch
+* [2] Kersting, W. H. (1991). Radial distribution test feeders. IEEE Transactions on Power Systems, 6(3), 975-985.
