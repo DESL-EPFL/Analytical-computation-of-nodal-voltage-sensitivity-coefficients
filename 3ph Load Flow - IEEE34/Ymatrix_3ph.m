@@ -77,7 +77,7 @@ for l = 1:nph:size(num,1)
     Configurations{count,1}.X = num(l:l+nph - 1, 6:6+nph - 1); % [Ohms]
     Configurations{count,1}.Z = (Configurations{count,1}.R + 1i* Configurations{count,1}.X); % [Ohms]
     % Shunt
-    Configurations{count,1}.B = num(l:l+nph - 1, 9:9+nph - 1)*1e-6; % [S]
+    Configurations{count,1}.B = 1i*num(l:l+nph - 1, 9:9+nph - 1)*1e-6; % [S]
     % Increment counter
     count = count + 1;
 end
