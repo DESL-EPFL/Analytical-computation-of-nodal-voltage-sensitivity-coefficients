@@ -55,7 +55,7 @@ for l = 1:size(num,1)
     % Eb, Ib, Zb & Yb
     Basis{count,1}.Eb = Basis{count,1}.Vb/sqrt(3); % Phase-to-Ground Voltage
     Basis{count,1}.Ib = Basis{count,1}.Ab/(sqrt(3)*Basis{count,1}.Vb); % Nodal Current Base
-    Basis{count,1}.Zb = Basis{count,1}.Vb/Basis{count,1}.Ib; % Impedance Base 
+    Basis{count,1}.Zb = Basis{count,1}.Eb/Basis{count,1}.Ib; % Impedance Base 
     Basis{count,1}.Yb = 1/Basis{count,1}.Zb; % Admittance Base
     
     % Increment counter
